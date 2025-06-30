@@ -852,7 +852,7 @@ static inline bool32 IsBattleMoveStatus(u32 move)
     ({                                                                                    \
         u32 types[3];                                                                     \
         GetBattlerTypes(battlerId, FALSE, types);                                         \
-        IS_TYPE_DUB(types[0]) || IS_TYPE_DUB(types[1]) || IS_TYPE_DUB(types[2]); \
+        types[0].isDouble || types[0].isDouble || types[0].isDouble; \
     })
 
 #define SET_BATTLER_TYPE(battler, type)              \
