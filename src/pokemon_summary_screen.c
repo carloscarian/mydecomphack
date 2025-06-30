@@ -911,6 +911,78 @@ static const union AnimCmd sSpriteAnim_TypeStellar[] = {
     ANIMCMD_FRAME(TYPE_STELLAR * 8, 0, FALSE, FALSE),
     ANIMCMD_END
 };
+static const union AnimCmd sSpriteAnim_TypeNormal2[] = {
+    ANIMCMD_FRAME(TYPE_NORMAL2 * 8, 0, FALSE, FALSE),
+    ANIMCMD_END
+};
+static const union AnimCmd sSpriteAnim_TypeFighting2[] = {
+    ANIMCMD_FRAME(TYPE_FIGHTING2 * 8, 0, FALSE, FALSE),
+    ANIMCMD_END
+};
+static const union AnimCmd sSpriteAnim_TypeFlying2[] = {
+    ANIMCMD_FRAME(TYPE_FLYING2 * 8, 0, FALSE, FALSE),
+    ANIMCMD_END
+};
+static const union AnimCmd sSpriteAnim_TypePoison2[] = {
+    ANIMCMD_FRAME(TYPE_POISON2 * 8, 0, FALSE, FALSE),
+    ANIMCMD_END
+};
+static const union AnimCmd sSpriteAnim_TypeGround2[] = {
+    ANIMCMD_FRAME(TYPE_GROUND2 * 8, 0, FALSE, FALSE),
+    ANIMCMD_END
+};
+static const union AnimCmd sSpriteAnim_TypeRock2[] = {
+    ANIMCMD_FRAME(TYPE_ROCK2 * 8, 0, FALSE, FALSE),
+    ANIMCMD_END
+};
+static const union AnimCmd sSpriteAnim_TypeBug2[] = {
+    ANIMCMD_FRAME(TYPE_BUG2 * 8, 0, FALSE, FALSE),
+    ANIMCMD_END
+};
+static const union AnimCmd sSpriteAnim_TypeGhost2[] = {
+    ANIMCMD_FRAME(TYPE_GHOST2 * 8, 0, FALSE, FALSE),
+    ANIMCMD_END
+};
+static const union AnimCmd sSpriteAnim_TypeSteel2[] = {
+    ANIMCMD_FRAME(TYPE_STEEL2 * 8, 0, FALSE, FALSE),
+    ANIMCMD_END
+};
+static const union AnimCmd sSpriteAnim_TypeFire2[] = {
+    ANIMCMD_FRAME(TYPE_FIRE2 * 8, 0, FALSE, FALSE),
+    ANIMCMD_END
+};
+static const union AnimCmd sSpriteAnim_TypeWater2[] = {
+    ANIMCMD_FRAME(TYPE_WATER2 * 8, 0, FALSE, FALSE),
+    ANIMCMD_END
+};
+static const union AnimCmd sSpriteAnim_TypeGrass2[] = {
+    ANIMCMD_FRAME(TYPE_GRASS2 * 8, 0, FALSE, FALSE),
+    ANIMCMD_END
+};
+static const union AnimCmd sSpriteAnim_TypeElectric2[] = {
+    ANIMCMD_FRAME(TYPE_ELECTRIC2 * 8, 0, FALSE, FALSE),
+    ANIMCMD_END
+};
+static const union AnimCmd sSpriteAnim_TypePsychic2[] = {
+    ANIMCMD_FRAME(TYPE_PSYCHIC2 * 8, 0, FALSE, FALSE),
+    ANIMCMD_END
+};
+static const union AnimCmd sSpriteAnim_TypeIce2[] = {
+    ANIMCMD_FRAME(TYPE_ICE2 * 8, 0, FALSE, FALSE),
+    ANIMCMD_END
+};
+static const union AnimCmd sSpriteAnim_TypeDragon2[] = {
+    ANIMCMD_FRAME(TYPE_DRAGON2 * 8, 0, FALSE, FALSE),
+    ANIMCMD_END
+};
+static const union AnimCmd sSpriteAnim_TypeDark2[] = {
+    ANIMCMD_FRAME(TYPE_DARK2 * 8, 0, FALSE, FALSE),
+    ANIMCMD_END
+};
+static const union AnimCmd sSpriteAnim_TypeFairy2[] = {
+    ANIMCMD_FRAME(TYPE_FAIRY2 * 8, 0, FALSE, FALSE),
+    ANIMCMD_END
+};
 static const union AnimCmd sSpriteAnim_CategoryCool[] = {
     ANIMCMD_FRAME((CONTEST_CATEGORY_COOL + NUMBER_OF_MON_TYPES) * 8, 0, FALSE, FALSE),
     ANIMCMD_END
@@ -953,6 +1025,24 @@ static const union AnimCmd *const sSpriteAnimTable_MoveTypes[NUMBER_OF_MON_TYPES
     [TYPE_DARK] = sSpriteAnim_TypeDark,
     [TYPE_FAIRY] = sSpriteAnim_TypeFairy,
     [TYPE_STELLAR] = sSpriteAnim_TypeStellar,
+    [TYPE_NORMAL2] = sSpriteAnim_TypeNormal2,
+    [TYPE_FIGHTING2] = sSpriteAnim_TypeFighting2,
+    [TYPE_FLYING2] = sSpriteAnim_TypeFlying2,
+    [TYPE_POISON2] = sSpriteAnim_TypePoison2,
+    [TYPE_GROUND2] = sSpriteAnim_TypeGround2,
+    [TYPE_ROCK2] = sSpriteAnim_TypeRock2,
+    [TYPE_BUG2] = sSpriteAnim_TypeBug2,
+    [TYPE_GHOST2] = sSpriteAnim_TypeGhost2,
+    [TYPE_STEEL2] = sSpriteAnim_TypeSteel2,
+    [TYPE_FIRE2] = sSpriteAnim_TypeFire2,
+    [TYPE_WATER2] = sSpriteAnim_TypeWater2,
+    [TYPE_GRASS2] = sSpriteAnim_TypeGrass2,
+    [TYPE_ELECTRIC2] = sSpriteAnim_TypeElectric2,
+    [TYPE_PSYCHIC2] = sSpriteAnim_TypePsychic2,
+    [TYPE_ICE2] = sSpriteAnim_TypeIce2,
+    [TYPE_DRAGON2] = sSpriteAnim_TypeDragon2,
+    [TYPE_DARK2] = sSpriteAnim_TypeDark2,
+    [TYPE_FAIRY2] = sSpriteAnim_TypeFairy2,
     [NUMBER_OF_MON_TYPES + CONTEST_CATEGORY_COOL] = sSpriteAnim_CategoryCool,
     [NUMBER_OF_MON_TYPES + CONTEST_CATEGORY_BEAUTY] = sSpriteAnim_CategoryBeauty,
     [NUMBER_OF_MON_TYPES + CONTEST_CATEGORY_CUTE] = sSpriteAnim_CategoryCute,
