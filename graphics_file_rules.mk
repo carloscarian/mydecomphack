@@ -23,7 +23,7 @@ NAMINGGFXDIR := graphics/naming_screen
 SPINDAGFXDIR := graphics/pokemon/spinda/spots
 TITLESCREENGFXDIR := graphics/title_screen
 
-types := none normal fight flying poison ground rock bug ghost steel mystery fire water grass electric psychic ice dragon dark fairy stellar
+types := none normal fight flying poison ground rock bug ghost steel mystery fire water grass electric psychic ice dragon dark fairy stellar normal2 fight2 flying2 poison2 ground2 rock2 bug2 ghost2 steel2 fire2 water2 grass2 electric2 psychic2 ice2 dragon2 dark2
 contest_types := cool beauty cute smart tough
 
 ### Tilesets ###

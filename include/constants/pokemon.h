@@ -23,7 +23,25 @@
 #define TYPE_DARK             18
 #define TYPE_FAIRY            19
 #define TYPE_STELLAR          20
-#define NUMBER_OF_MON_TYPES   21
+#define TYPE_NORMAL2          21
+#define TYPE_FIGHTING2        22
+#define TYPE_FLYING2          23
+#define TYPE_POISON2          24
+#define TYPE_GROUND2          25
+#define TYPE_ROCK2            26
+#define TYPE_BUG2             27
+#define TYPE_GHOST2           28
+#define TYPE_STEEL2           29
+#define TYPE_FIRE2            30
+#define TYPE_WATER2           31
+#define TYPE_GRASS2           32
+#define TYPE_ELECTRIC2        33
+#define TYPE_PSYCHIC2         34
+#define TYPE_ICE2             35
+#define TYPE_DRAGON2          36
+#define TYPE_DARK2            37
+#define TYPE_FAIRY2           38
+#define NUMBER_OF_MON_TYPES   39
 
 // Pokémon egg groups
 #define EGG_GROUP_NONE                0
