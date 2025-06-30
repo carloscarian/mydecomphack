@@ -845,7 +845,7 @@ static inline bool32 IsBattleMoveStatus(u32 move)
     })
 
 // Magik: This macro checks if the current mon is e.g. Water/Water, so we can apply double STAB
-#define IS_BATTLER_DOUBLE_TYPE(battle)                                                   \
+#define IS_BATTLER_DOUBLE_TYPE(battler)                                                   \
     ({                                                                                    \
         u32 types[3];                                                                     \
         GetBattlerTypes(battler, FALSE, types);                                         \
