@@ -124,7 +124,7 @@ enum {
 struct PokemonSubstruct0
 {
     u16 species:11; // 2047 species.
-    u16 teraType:5; // 30 types.
+    u16 teraType:6; // 30 types. (Magik: changed this to avoid bug)
     u16 heldItem:10; // 1023 items.
     u16 unused_02:6;
     u32 experience:21;
