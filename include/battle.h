@@ -844,6 +844,17 @@ static inline bool32 IsBattleMoveStatus(u32 move)
         types[0] == TYPE_MYSTERY && types[1] == TYPE_MYSTERY && types[2] == TYPE_MYSTERY; \
     })
 
+// Magik: This macro checks if the current mon is e.g. Water/Water, so we can apply double STAB
+// IS_TYPE_DUB returns TRUE if the selected type is of the form TYPE_FIRE2 or similar
+// TODO figure out where to put IS_TYPE_DUB and think about stuff like charcoal and stuff
+
+#define IS_BATTLER_DOUBLE_TYPE(battler)
+    ({                                                                                    \
+        u32 types[3];                                                                     \
+        GetBattlerTypes(battlerId, FALSE, types);                                         \
+        IS_TYPE_DUB(types[0]) || IS_TYPE_DUB(types[1]) || IS_TYPE_DUB(types[2]); \
+    })
+
 #define SET_BATTLER_TYPE(battler, type)              \
 {                                                    \
     gBattleMons[battler].types[0] = type;            \
