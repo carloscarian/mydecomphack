@@ -848,11 +848,11 @@ static inline bool32 IsBattleMoveStatus(u32 move)
 // IS_TYPE_DUB returns TRUE if the selected type is of the form TYPE_FIRE2 or similar
 // TODO figure out where to put IS_TYPE_DUB and think about stuff like charcoal and stuff
 
-#define IS_BATTLER_DOUBLE_TYPE(battler)
+#define IS_BATTLER_DOUBLE_TYPE(battler)                                                   \
     ({                                                                                    \
         u32 types[3];                                                                     \
         GetBattlerTypes(battlerId, FALSE, types);                                         \
-        types[0].isDouble || types[0].isDouble || types[0].isDouble; \
+        types[0].isDouble || types[0].isDouble || types[0].isDouble;                      \
     })
 
 #define SET_BATTLER_TYPE(battler, type)              \
