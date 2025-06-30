@@ -1463,7 +1463,7 @@ static const u8 sDexSearchTypeIds[NUMBER_OF_MON_TYPES] =
     TYPE_ICE,
     TYPE_DRAGON,
     TYPE_DARK,
-    TYPE_FAIRY
+    TYPE_FAIRY,
     TYPE_NORMAL2,
     TYPE_FIGHTING2,
     TYPE_FLYING2,
