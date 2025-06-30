@@ -9094,6 +9094,8 @@ static inline uq4_12_t GetSameTypeAttackBonusModifier(struct DamageCalculationDa
         return (abilityAtk == ABILITY_ADAPTABILITY) ? UQ_4_12(2.0) : UQ_4_12(1.5);
     else if (!IS_BATTLER_OF_TYPE(battlerAtk, moveType) || move == MOVE_STRUGGLE || move == MOVE_NONE)
         return UQ_4_12(1.0);
+    if IS_BATTLER_DOUBLE_TYPE(battler)
+        return (abilityAtk == ABILITY_ADAPTABILITY) ? UQ_4_12(3.0) : UQ_4_12(2.25);
     return (abilityAtk == ABILITY_ADAPTABILITY) ? UQ_4_12(2.0) : UQ_4_12(1.5);
 }
 
