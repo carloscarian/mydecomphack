@@ -1339,6 +1339,9 @@ extern const u32 gItemIcon_RoomService[];
 extern const u16 gItemIconPalette_RoomService[];
 extern const u32 gItemIcon_UtilityUmbrella[];
 extern const u16 gItemIconPalette_UtilityUmbrella[];
+// Custom by Magik
+extern const u32 gItemIcon_ArmoredVest[];
+extern const u16 gItemIconPalette_ArmoredVest[];
 // Berries
 extern const u32 gItemIcon_CheriBerry[];
 extern const u16 gItemIconPalette_CheriBerry[];
