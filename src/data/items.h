@@ -14141,4 +14141,23 @@ const struct Item gItemsInfo[] =
         .iconPic = gItemIcon_PokeshiDoll,
         .iconPalette = gItemIconPalette_PokeshiDoll,
     },
+
+    // Custom Items by Magik
+
+    [ITEM_ARMORED_VEST] =
+    {
+        .name = _("Armored Vest"),
+        .pluralName = _("Armored Vests"),
+        .price = (I_PRICE >= GEN_9) ? 20000 : ((I_PRICE >= GEN_7) ? 4000 : 1000),
+        .holdEffect = HOLD_EFFECT_ARMORED_VEST,
+        .description = COMPOUND_STRING(
+            "Protects user from\n"
+            "Critical Hits."),
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .flingPower = 80,
+        .iconPic = gItemIcon_ArmoredVest,
+        .iconPalette = gItemIconPalette_ArmoredVest,
+    },
 };

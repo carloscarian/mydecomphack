@@ -2440,6 +2440,8 @@ static const u8 sText_HoldEffectLoadedDice[] = _("Loaded Dice");
 static const u8 sText_HoldEffectBoosterEnergy[] = _("Booster Energy");
 static const u8 sText_HoldEffectBerserkGene[] = _("Berserk Gene");
 static const u8 sText_HoldEffectOgerponMask[] = _("Ogerpon Mask");
+// Custom by Magik
+static const u8 sText_HoldEffectArmoredVest[] = _("Armored Vest");
 static const u8 *const sHoldEffectNames[] =
 {
     [HOLD_EFFECT_NONE] = sText_HoldEffectNone,
@@ -2574,6 +2576,8 @@ static const u8 *const sHoldEffectNames[] =
     [HOLD_EFFECT_BOOSTER_ENERGY] = sText_HoldEffectBoosterEnergy,
     [HOLD_EFFECT_OGERPON_MASK] = sText_HoldEffectOgerponMask,
     [HOLD_EFFECT_BERSERK_GENE] = sText_HoldEffectBerserkGene,
+    // Custom items by Magik
+    [HOLD_EFFECT_ARMORED_VEST] = sText_HoldEffectArmoredVest,
 };
 static const u8 *GetHoldEffectName(enum ItemHoldEffect holdEffect)
 {
