@@ -68,9 +68,9 @@ struct MoveInfo
     const u8 *name;
     const u8 *description;
     u16 effect;
-    u16 type:5;     // Up to 32
+    u16 type:6;     // Up to 32 (Magik: changed this)
     u16 category:2;
-    u16 power:9;    // up to 511
+    u16 power:8;    // up to 511 (Magik: changed this)
     // end of word
     u16 accuracy:7;
     u16 target:9;
