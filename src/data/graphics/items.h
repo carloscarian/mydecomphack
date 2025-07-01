@@ -1502,6 +1502,9 @@ const u16 gItemIconPalette_RoomService[] = INCBIN_U16("graphics/items/icon_palet
 const u32 gItemIcon_UtilityUmbrella[] = INCBIN_U32("graphics/items/icons/utility_umbrella.4bpp.lz");
 const u16 gItemIconPalette_UtilityUmbrella[] = INCBIN_U16("graphics/items/icon_palettes/utility_umbrella.gbapal");
 
+const u32 gItemIcon_ArmoredVest[] = INCBIN_U32("graphics/items/icons/armored_vest.4bpp.lz");
+const u16 gItemIconPalette_ArmoredVest[] = INCBIN_U16("graphics/items/icon_palettes/armored_vest.gbapal");
+
 // Berries
 
 const u32 gItemIcon_CheriBerry[] = INCBIN_U32("graphics/items/icons/cheri_berry.4bpp.lz");
